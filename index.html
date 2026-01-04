@@ -11,7 +11,7 @@
 </head>
 
 <body>
-       <div class="circle-container">
+    <div class="circle-container">
         <div class="circle"></div>
         <div class="circle"></div>
         <div class="circle"></div>
@@ -42,43 +42,43 @@
         <div class="circle"></div>
         <div class="circle"></div>
         <div class="circle"></div>
-      </div>
-      <script>
+    </div>
+    <script>
         document.addEventListener("DOMContentLoaded", function () {
-          const coords = { x: 0, y: 0 };
-          const circles = document.querySelectorAll(".circle");
+            const coords = { x: 0, y: 0 };
+            const circles = document.querySelectorAll(".circle");
 
-          circles.forEach(function (circle) {
-            circle.x = 0;
-            circle.y = 0;
-          });
-
-          window.addEventListener("mousemove", function (e) {
-            coords.x = e.pageX;
-            coords.y = e.pageY - window.scrollY; // Adjust for vertical scroll position
-          });
-
-          function animateCircles() {
-            let x = coords.x;
-            let y = coords.y; 
-            circles.forEach(function (circle, index) {
-              circle.style.left = `${x - 12}px`;
-              circle.style.top = `${y - 12}px`;
-              circle.style.transform = `scale(${(circles.length - index) / circles.length})`;
-              const nextCircle = circles[index + 1] || circles[0];
-              circle.x = x;
-              circle.y = y;
-                            x += (nextCircle.x - x) * 0.3;
-              y += (nextCircle.y - y) * 0.3;
+            circles.forEach(function (circle) {
+                circle.x = 0;
+                circle.y = 0;
             });
 
-            requestAnimationFrame(animateCircles);
-          }
+            window.addEventListener("mousemove", function (e) {
+                coords.x = e.pageX;
+                coords.y = e.pageY - window.scrollY; // Adjust for vertical scroll position
+            });
 
-          animateCircles();
+            function animateCircles() {
+                let x = coords.x;
+                let y = coords.y;
+                circles.forEach(function (circle, index) {
+                    circle.style.left = `${x - 12}px`;
+                    circle.style.top = `${y - 12}px`;
+                    circle.style.transform = `scale(${(circles.length - index) / circles.length})`;
+                    const nextCircle = circles[index + 1] || circles[0];
+                    circle.x = x;
+                    circle.y = y;
+                    x += (nextCircle.x - x) * 0.3;
+                    y += (nextCircle.y - y) * 0.3;
+                });
+
+                requestAnimationFrame(animateCircles);
+            }
+
+            animateCircles();
         });
 
-      </script>
+    </script>
 
 
     <!-- NAVBAR START -->
@@ -98,11 +98,11 @@
             <li><a href="https://github.com/Jayanta2004" target="_blank">GitHub</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
-        
-    <button id="themeToggle" class="theme-toggle">🌙</button>
+
+        <button id="themeToggle" class="theme-toggle">🌙</button>
     </nav>
 
-<!-- NAVBAR END -->
+    <!-- NAVBAR END -->
 
     <!-- Main heading of the website -->
 
@@ -270,7 +270,8 @@
             <img src="images/Snehasish-tech.jpeg" alt="Snehasish Dey's Photo" class="card-img">
             <h2>Snehasish Dey</h2>
             <span class="role">Contributor</span>
-            <p>"IT student passionate about Open Source, constantly exploring new technologies and contributing to meaningful projects."</p>
+            <p>"IT student passionate about Open Source, constantly exploring new technologies and contributing to
+                meaningful projects."</p>
             <a href="https://github.com/Snehasish-tech" class="card-btn" target="_blank">GitHub</a>
         </div>
 
@@ -291,7 +292,7 @@
         </div>
 
 
-        
+
         <div class="card">
             <img src="images/arpan.jpg" alt="Arpan" class="card-img">
             <h2>Arpan Purkait</h2>
@@ -299,17 +300,18 @@
             <p>Zindegi Ek safar hai.....</p>
             <a href="https://github.com/arpanpurkait" class="card-btn" target="_blank">GitHub</a>
         </div>
-      
+
         <div class="card">
-            <img src="images/roychowdhury-arghya.png" alt="Arghya" class="card-img"> 
+            <img src="images/roychowdhury-arghya.png" alt="Arghya" class="card-img">
             <h2>Arghya RoyChowdhury</h2>
             <span class="role">Contributor</span>
-            <p>"Radhe Radhe!! This is my first Open-source Contribution , I'm really excited to be part of this community"</p>
+            <p>"Radhe Radhe!! This is my first Open-source Contribution , I'm really excited to be part of this
+                community"</p>
             <a href="https://github.com/roychowdhury-arghya" class="card-btn" target="_blank">GitHub</a>
         </div>
-      
+
         <div class="card">
-            <img src="images/user.png" alt="User Photo" class="card-img"> 
+            <img src="images/user.png" alt="User Photo" class="card-img">
             <h2>Amballa Sneha</h2>
             <span class="role">Developer</span>
             <p>"This is 1st PR in EWOC'26 "</p>
@@ -336,7 +338,8 @@
             <img src="images/Ashish-Agrawal.png" alt="Ashish's Photo" class="card-img">
             <h2>Ashish Agrawal</h2>
             <span class="role">Backend Developer</span>
-            <p>"I am excited to make my first open-source contribution and learned how to make a Pull Request today!"</p>
+            <p>"I am excited to make my first open-source contribution and learned how to make a Pull Request today!"
+            </p>
             <a href="https://github.com/ashishagrawalcode" class="card-btn" target="_blank">View My GitHub Profile!</a>
         </div>
 
@@ -363,9 +366,16 @@
             <p>"I learned how to make a Pull Request today!"</p>
             <a href="https://github.com/Rakhi-Dixit03" class="card-btn" target="_blank">GitHub</a>
         </div>
-      
-      
-      <!-- ADD YOUR NEW CARD ABOVE THIS COMMENT -->
+
+        <div class="card">
+            <img src="images/Bhavy-doe.jpeg" alt="Bhavy gupta Photo" class="card-img">
+            <h2>Bhavy Gupta</h2>
+            <span class="role">Open Source Contributor</span>
+            <p>"Hello! This is my first PR.Happy to connect with U all..."</p>
+            <a href="https://github.com/BhavyGupta12911" class="card-btn" target="_blank">view my GitHub Profile Here!</a>
+        </div>
+
+        <!-- ADD YOUR NEW CARD ABOVE THIS COMMENT -->
 
     </div> <!-- End of card-container -->
 
@@ -464,69 +474,69 @@
         });
     </script>
 
-<script>
-/* ---------- SORT CARDS SCRIPT ---------- */
-const container = document.querySelector(".card-container");
-const originalCards = Array.from(container.children);
+    <script>
+        /* ---------- SORT CARDS SCRIPT ---------- */
+        const container = document.querySelector(".card-container");
+        const originalCards = Array.from(container.children);
 
-function sortCards() {
-    const value = document.getElementById("sortSelect")?.value;
-    if (!value) return;
+        function sortCards() {
+            const value = document.getElementById("sortSelect")?.value;
+            if (!value) return;
 
-    let cards = Array.from(container.children);
+            let cards = Array.from(container.children);
 
-    if (value === "default") {
-        container.innerHTML = "";
-        originalCards.forEach(card => container.appendChild(card));
-        return;
-    }
+            if (value === "default") {
+                container.innerHTML = "";
+                originalCards.forEach(card => container.appendChild(card));
+                return;
+            }
 
-    if (value === "az") {
-        cards.sort((a, b) =>
-            a.querySelector("h2").innerText
-                .localeCompare(b.querySelector("h2").innerText)
-        );
-    }
+            if (value === "az") {
+                cards.sort((a, b) =>
+                    a.querySelector("h2").innerText
+                        .localeCompare(b.querySelector("h2").innerText)
+                );
+            }
 
-    if (value === "za") {
-        cards.sort((a, b) =>
-            b.querySelector("h2").innerText
-                .localeCompare(a.querySelector("h2").innerText)
-        );
-    }
+            if (value === "za") {
+                cards.sort((a, b) =>
+                    b.querySelector("h2").innerText
+                        .localeCompare(a.querySelector("h2").innerText)
+                );
+            }
 
-    if (value === "newest") {
-        cards.reverse();
-    }
+            if (value === "newest") {
+                cards.reverse();
+            }
 
-    container.innerHTML = "";
-    cards.forEach(card => container.appendChild(card));
-}
-</script>
+            container.innerHTML = "";
+            cards.forEach(card => container.appendChild(card));
+        }
+    </script>
 
-<script>
-/* ---------- THEME TOGGLE SCRIPT ---------- */
-const toggleBtn = document.getElementById("themeToggle");
-const body = document.body;
+    <script>
+        /* ---------- THEME TOGGLE SCRIPT ---------- */
+        const toggleBtn = document.getElementById("themeToggle");
+        const body = document.body;
 
-// Load saved theme
-if (localStorage.getItem("theme") === "light") {
-    body.classList.add("light-mode");
-    toggleBtn.textContent = "🌞";
-}
+        // Load saved theme
+        if (localStorage.getItem("theme") === "light") {
+            body.classList.add("light-mode");
+            toggleBtn.textContent = "🌞";
+        }
 
-toggleBtn.addEventListener("click", () => {
-    body.classList.toggle("light-mode");
+        toggleBtn.addEventListener("click", () => {
+            body.classList.toggle("light-mode");
 
-    if (body.classList.contains("light-mode")) {
-        toggleBtn.textContent = "🌞";
-        localStorage.setItem("theme", "light");
-    } else {
-        toggleBtn.textContent = "🌙";
-        localStorage.setItem("theme", "dark");
-    }
-});
-</script>
+            if (body.classList.contains("light-mode")) {
+                toggleBtn.textContent = "🌞";
+                localStorage.setItem("theme", "light");
+            } else {
+                toggleBtn.textContent = "🌙";
+                localStorage.setItem("theme", "dark");
+            }
+        });
+    </script>
 
 
 </body>
