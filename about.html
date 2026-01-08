@@ -922,25 +922,30 @@
         </section>
 
         <section id="add-testimonial">
-            <h2>💬 Share Your Feedback</h2>
-            <p>Your words help us grow 🌱</p>
+  <h2>💬 Share Your Feedback</h2>
+  <p>Your words help us grow 🌱</p>
 
-            <div class="testimonial-form">
-                <input type="text" id="username" placeholder="Your Name">
-                <textarea
-                   id="feedback"
-                   rows="5"
-                   style="min-height:140px;height:auto;resize:vertical;"
-                   placeholder="Write your feedback...">
-                </textarea>
+  <div class="testimonial-form">
+    <input
+      type="text"
+      id="username"
+      placeholder="Your Name"
+    >
 
-              <button onclick="addTestimonial()">Submit Feedback</button>
-            </div>
+    <textarea
+      id="feedback"
+      placeholder="Write your feedback...">
+    </textarea>
 
-            <div id="testimonial-list"></div>
-        </section>
+    <button onclick="addTestimonial()">
+      Submit Feedback
+    </button>
+  </div>
 
-        <script>
+  <div id="testimonial-list"></div>
+</section>
+
+<script>
 function addTestimonial() {
   const name = document.getElementById('username').value.trim();
   const feedback = document.getElementById('feedback').value.trim();
@@ -978,6 +983,7 @@ window.onload = () => {
   });
 };
 </script>
+
 
         <!-- Minimal footer -->
         <footer class="footer">
