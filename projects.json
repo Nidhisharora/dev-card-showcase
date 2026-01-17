@@ -1502,6 +1502,25 @@
     "name": "PavanKarthik",
     "github": "https://github.com/pavanakarthik12"
   }
+},
+{
+  "title": "Visual Daily Routine Planner ⏰",
+  "description": "A modern, student-friendly daily planner with time blocks, editable tasks, and clean UI.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "UI/UX",
+    "Productivity"
+  ],
+  "links": {
+    "live": "./projects/daily-routine-planner/index.html"
+  },
+  "author": {
+    "name": "Sneha Amballa",
+    "github": "https://github.com/your-github-username"
+  }
 }
+
 
 ]
