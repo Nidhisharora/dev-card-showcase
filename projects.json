@@ -1721,5 +1721,25 @@
     "name": "PavanKarthik",
     "github": "https://github.com/pavanakarthik12"
   }
+},
+{
+  "title": "Color Sorting Puzzle 🧪🎨",
+  "description": "A colorful logic puzzle where users sort layered colors into correct jars.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Game",
+    "Logic",
+    "Puzzle"
+  ],
+  "links": {
+    "live": "./projects/color-sorting-puzzle/index.html"
+  },
+  "author": {
+    "name": "Sneha Amballa",
+    "github": "https://github.com/your-github-username"
+  }
 }
+
 ]
