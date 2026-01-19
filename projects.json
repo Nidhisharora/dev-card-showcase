@@ -1777,12 +1777,28 @@
   }
 },
 {
+  "title": "Silent Animation Guessing Game 🎞️",
+  "description": "A visual guessing game where users interpret silent animations and identify the situation.",
   "title": "Movie Drawing Guess Game 🎬🎨",
   "description": "A Pictionary-style game where players draw a movie and others guess it.",
   "tags": [
     "HTML",
     "CSS",
     "JavaScript",
+    "Animation",
+    "Game",
+    "Observation Skills"
+  ],
+  "links": {
+    "live": "./projects/silent-animation-guess-game/index.html"
+  },
+  "author": {
+    "name": "Sneha Amballa",
+    "github": "https://github.com/your-github-username"
+  }
+}
+
+]
     "Game",
     "Canvas",
     "Entertainment"
