@@ -3700,6 +3700,24 @@
         }
     },
 
+    {
+        "title": "Fruit Catcher",
+        "description": "Catch-and-collect arcade game with streak-based bonuses where you move the basket to catch falling fruit and keep all three lives intact.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Game"
+        ],
+        "links": {
+            "live": "./projects/fruit-catcher/index.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
+    },
+
 {
   "title": "Digital Burnout Awareness 🔥",
   "description": "An awareness page that explains digital burnout, its symptoms, causes, and simple prevention tips.",
