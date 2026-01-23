@@ -4854,6 +4854,20 @@
             "name":"Tushar Sonawane",
             "github": "https://github.com/Tushar-sonawane06"
         }
+    "title": "Drumsjs",
+    "description": "A JavaScript library for creating drum patterns. It provides a simple and intuitive way to define and work with drum patterns in your JavaScript applications.",
+    "tags": [
+        "JavaScript",
+        "Drum Pattern",
+        "Library"
+    ],
+    "links":{
+        "live":"./projects/drumsjs/index.html"
+    },
+    "author":{
+        "name":"PavanKarthik",
+        "github":"https://github.com/pavanakarthik12"
+    }
 }
 ]
 
