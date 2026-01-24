@@ -49,6 +49,22 @@
             "github": "https://github.com/neeru24"
         }
     },
+            {
+        "title": "Code Snippet Manager",
+        "description": "A web application that allows users to save, organize, and manage code snippets in various programming languages. Features include syntax highlighting, categorization, and search functionality for easy retrieval of snippets.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/code-snippet-manager/index.html"
+        },
+        "author": {
+            "name": "Neeru",
+            "github": "https://github.com/neeru24"
+        }
+    },
     {
         "title": "Physics Sandbox",
         "description": "A physics simulation sandbox with interactive controls and visualizations.",
@@ -294,6 +310,22 @@
         "author": {
             "name": "Omkar",
             "github": "https://github.com/omkarhole"
+        }
+    },
+        {
+        "title": "Code Snippet Manager",
+        "description": "A web application that allows users to save, organize, and manage code snippets in various programming languages. Features include syntax highlighting, categorization, and search functionality for easy retrieval of snippets.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/code-snippet-manager/index.html"
+        },
+        "author": {
+            "name": "Neeru",
+            "github": "https://github.com/neeru24"
         }
     },
     {
@@ -5106,6 +5138,42 @@
     "author": {
         "name": "PavanKarthik",
         "github": "https://github.com/pavanakarthik12"
+    "title": "AI-Style Image Captioner",
+    "description": "Upload an image and get a creative, AI-style caption generated for it. Features dynamic caption generation with templates and keywords.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Utility Tool",
+        "AI",
+        "Image"
+    ],
+    "links": {
+        "live": "./projects/ai-style-image-captioner/index.html"
+    },
+    "author": {
+        "name": "Bavanetha27",
+        "github": "https://github.com/Bavanetha27"
+    }
+},
+{
+    "title": "Dynamic Maze Generator",
+    "description": "An interactive maze game that generates random mazes using DFS algorithm. Navigate with arrow keys, track time, and use hints to solve challenging puzzles.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Game",
+        "Canvas",
+        "Algorithm",
+        "Puzzle"
+    ],
+    "links": {
+        "live": "./projects/dynamic-maze-generator/index.html"
+    },
+    "author": {
+        "name": "Bavanetha27",
+        "github": "https://github.com/Bavanetha27"
     }
 }
 ]
