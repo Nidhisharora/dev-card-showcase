@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/analytics.css">
     <link rel="icon" type="image/png" href="Hall of Fame (1).png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head>
 <body>
@@ -46,35 +46,11 @@
     </div>
 
     <!-- NAVBAR -->
-    <nav class="navbar">
-        <div class="nav-logo">
-            <i class="fas fa-chart-line"></i> Analytics Dashboard
-        </div>
+    <!-- NAVBAR START -->
+    <div id="navbar"></div>
 
-        <div class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
 
-        <ul class="nav-links" id="navLinks">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contribute.html">Contribute</a></li>
-            <li><a href="https://github.com/Jayanta2004/dev-card-showcase" target="_blank">GitHub</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="statistics.html">Statistics</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="guidelines.html">Guidelines</a></li>
-            <li><a href="feedback.html">Feedback</a></li>
-            <li><a href="bug-report.html">Bug Report</a></li>
-            <li><a href="feature-request.html">Feature Request</a></li>
-            <li><a href="analytics.html">Analytics</a></li>
-            <li><a href="roadmap.html">Roadmap</a></li>
-        </ul>
-
-        <button id="themeToggle" class="theme-toggle">🌙</button>
-    </nav>
+    <!-- NAVBAR END -->
 
     <!-- ANALYTICS HEADER -->
     <section class="analytics-header">
@@ -197,6 +173,11 @@
                     <i class="fas fa-users"></i> All Contributors
                 </h3>
             </div>
+            <div class="contributors-controls">
+                <input type="text"
+                id="contributorSearch" 
+                placeholder="Search contributors by username">
+            </div>
             <div class="contributors-grid" id="allContributors">
                 <div class="loading">
                     <div class="loading-spinner"></div>
@@ -245,63 +226,7 @@
     </button>
 
     <!-- FOOTER -->
-    <footer class="footer">
-        <div class="footer-container">
-      
-          <!-- Brand Section -->
-          <div class="footer-brand">
-            <h3>
-              <i class="fa-solid fa-file-lines"></i>
-              Dev-Card-Showcase
-            </h3>
-            <p>Contribute with Projects & Add Your Contribution Card</p>
-      
-            <div class="footer-social-icons">
-              <a href="https://github.com/Jayanta2004"><i class="fa-brands fa-github"></i></a>
-              <a href="https://x.com/JayantaG2004"><i class="fa-brands fa-twitter"></i></a>
-              <a href="https://www.instagram.com/jayantaghosh2004"><i class="fa-brands fa-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/jayantaghosh2004"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
-          </div>
-      
-          <!-- Quick Links -->
-          <div class="footer-links">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="feedback.html">Feedback</a></li>
-            </ul>
-          </div>
-      
-          <!-- Resources -->
-          <div class="footer-links">
-            <h4>Resources</h4>
-            <ul>
-              <li><a href="#">Analytics</a></li>
-              <li><a href="guidelines.html">Guidelines</a></li>
-              <li><a href="bug-report.html">Bug Report</a></li>
-              <li><a href="feature-request.html">Feature Request</a></li>
-              <li><a href="faq.html">FAQ</a></li>
-            </ul>
-          </div>
-      
-          <!-- Legal -->
-          <div class="footer-links">
-            <h4>Legal</h4>
-            <ul>
-              <li><a href="privacy-policy.html">Privacy Policy</a></li>
-              <li><a href="#">Terms of Service</a></li>
-              <li><a href="#">Cookie Policy</a></li>
-            </ul>
-          </div>
-        </div>
-      
-        <div class="footer-bottom">
-          <p>© 2026 Dev-Card-Showcase. All rights reserved.</p>
-        </div>
-      </footer>
+    <div id="footer"></div>
 
     <!-- EXPORT MODAL -->
     <div id="exportModal" class="modal">
@@ -372,5 +297,6 @@
 
     <!-- SCRIPTS -->
     <script src="./js/analytics.js"></script>
+    <script src="./js/include.js"></script>
 </body>
 </html>
